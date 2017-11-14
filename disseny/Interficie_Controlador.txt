@@ -1,0 +1,27 @@
+OBJECTES:
+-BRAÇ
+-CAMERA
+-CONDUCCIÓ
+-RODA
+-CONTROLADOR
+
+Interficies:
+
+BRAÇ:
+-setAngle(double)
+
+CAMERA:
+- int getSign()
+
+CONDUCCIO:
+- void goForward(double)
+- void goBackward(double)
+- void turnLeft(double)
+- void turnRight(double)
+- boolean isIntersection()
+- boolean isPathForward()
+- boolean isPathLeft()
+- boolean isPathBackward()
+- boolean isPathRight()
+- boolean isPathAligned()
+. void setAutoDireccion(boolean)
